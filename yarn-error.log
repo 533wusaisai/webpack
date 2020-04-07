@@ -1,0 +1,70 @@
+Arguments: 
+  C:\New Folder\node.exe C:\node\node_global\node_modules\yarn\bin\yarn.js add @babel-core
+
+PATH: 
+  C:\ORACLE\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Java\jdk-10.0.2\bin;C:\Program Files\Java\jdk-10.0.2\jre\bin;C:\EclipseWen\platform-tools;C:\EclipseWen\tools;c:\windows\system32;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS;C:\WINDOWS\system32\wbem;C:\APICloud\Git\cmd;C:\Git\cmd;C:\Users\83699\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\node\node_global;C:\New Folder\;C:\Users\83699\AppData\Local\Microsoft\WindowsApps;C:\软件安装\Microsoft VS Code\bin;";% ANDROID_SDK_HOME%\platform-tools;% ANDROID_SDK_HOME%\tools";C:\VsCode\Microsoft VS Code\bin;C:\Users\83699\AppData\Roaming\nvm;c:\windows\system32;C:\Users\83699\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs;C:\Users\83699\AppData\Roaming\npm;C:\Users\83699\AppData\Local\BypassRuntm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel-core: Request "https://registry.yarnpkg.com/@babel-core" returned a 405
+      at Request.params.callback [as _callback] (C:\node\node_global\node_modules\yarn\lib\cli.js:66956:18)
+      at Request.self.callback (C:\node\node_global\node_modules\yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (C:\node\node_global\node_modules\yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (C:\node\node_global\node_modules\yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --config webpack.config.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack-dev-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^8.1.0",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-latest": "^6.24.1",
+      "css-loader": "^3.4.2",
+      "html-webpack-plugin": "^4.0.4",
+      "mini-css-extract-plugin": "^0.9.0",
+      "style-loader": "^1.1.3",
+      "webpack": "^4.42.1",
+      "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+      "autoprefixer": "^9.7.5",
+      "optimize-css-assets-webpack-plugin": "^5.0.3",
+      "postcss-loader": "^3.0.0",
+      "uglifyjs-webpack-plugin": "^2.2.0",
+      "url-loader": "^4.0.0",
+      "webpack-dev-server": "^3.10.3"
+    },
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
